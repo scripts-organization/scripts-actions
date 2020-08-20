@@ -1,5 +1,5 @@
 ### STAGE 1: Build ###
-FROM node:12.7-alpine AS build
+FROM node:14.4.0-alpine AS build
 WORKDIR /usr/src/app
 COPY package.json yarn.lock rappid-3.2.0.tgz ./
 RUN yarn install
