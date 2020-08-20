@@ -22,7 +22,7 @@
     "@angular/router": "9.1.1",
     "backbone": "1.4.0",
     "canvg-rappid": "1.0.3",
-    "@clientio/rappid": "file:../../../build/package/rappid-3.2.0.tgz",
+    "@clientio/rappid": "file:rappid-3.2.0.tgz",
     "dagre": "0.8.4",
     "graphlib": "2.1.7",
     "core-js": "2.5.7",
