@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ChatbotAngular9"
+    }
+  },
+  "defaultProject": "ChatbotAngular9",
+  "cli": {
+    "analytics": "cd737343-c4b8-4a20-bc2d-a2a69337f4fc"
+  }
 }
