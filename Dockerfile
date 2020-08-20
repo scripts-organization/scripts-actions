@@ -3,7 +3,6 @@ FROM node:14.4.0-alpine AS build
 WORKDIR /usr/src/app
 COPY package.json yarn.lock rappid-3.2.0.tgz ./
 RUN yarn install
-
 COPY . .
 RUN npm run build
 
