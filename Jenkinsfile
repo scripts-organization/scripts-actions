@@ -24,6 +24,8 @@ pipeline {
             sh "apk add nodejs"
             sh "npm install -g yarn"
             sh "yarn install"
+            sh "npm install"
+
          }
       }
 

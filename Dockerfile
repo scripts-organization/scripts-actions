@@ -3,6 +3,7 @@ FROM node:12.7-alpine AS build
 WORKDIR /usr/src/app
 COPY package.json rappid-3.2.0.tgz ./
 RUN yarn install
+RUN npm install
 COPY . .
 RUN npm run build
 
