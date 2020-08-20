@@ -22,8 +22,8 @@ pipeline {
       stage('Build') {
          steps {
             sh "apk add nodejs"
-            sh "echo $PATH"
-            sh 'npm install'
+            sh "npm install -g yarn"
+            sh "yarn install"
          }
       }
 
